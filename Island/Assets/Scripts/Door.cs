@@ -13,6 +13,7 @@ public class Door : MonoBehaviour {
     private float openTime = 0.0f;
 
     AudioSource audio;
+    
 
     Animation animate;
 
@@ -35,7 +36,11 @@ public class Door : MonoBehaviour {
     }
 
     void Open(){
+        if (isOpen) {
+            return;
+        }
         isOpen = true;
+        
         audio.PlayOneShot(door_OpenSound);
         animate.Play("openDoor");
     }
