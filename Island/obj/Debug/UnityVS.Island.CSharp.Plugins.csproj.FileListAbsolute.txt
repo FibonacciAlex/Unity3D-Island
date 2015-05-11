@@ -1,0 +1,13 @@
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.dll
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\UNITY\U3DProject\Island\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+D:\UNITY\U3DProject\Island\obj\Debug\UnityVS.Island.CSharp.Plugins.csprojResolveAssemblyReference.cache
+D:\UNITY\U3DProject\Island\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\UNITY\U3DProject\Island\obj\Debug\Assembly-CSharp-firstpass.pdb
