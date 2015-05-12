@@ -67,6 +67,8 @@
     <Compile Include="Assets\Scripts\Player\CharacterController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollsion.cs" />
     <Compile Include="Assets\Scripts\Player\SimpleRpgCamera.cs" />
+    <Compile Include="Assets\Scripts\PowerCell.cs" />
+    <Compile Include="Assets\Scripts\Tig.cs" />
     <Compile Include="Assets\Scripts\TransformAround.cs" />
   </ItemGroup>
   <ItemGroup>

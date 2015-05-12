@@ -12,13 +12,13 @@ public class Door : MonoBehaviour {
 
     private float openTime = 0.0f;
 
-    AudioSource audio;
+    AudioSource audioPlayer;
     
 
     Animation animate;
 
     void Start() {
-        audio = GetComponent<AudioSource>();
+        audioPlayer = GetComponent<AudioSource>();
         animate = gameObject.transform.parent.GetComponent<Animation>();
     }
 
@@ -40,14 +40,14 @@ public class Door : MonoBehaviour {
             return;
         }
         isOpen = true;
-        
-        audio.PlayOneShot(door_OpenSound);
+
+        audioPlayer.PlayOneShot(door_OpenSound);
         animate.Play("openDoor");
     }
 
     void Close() {
         isOpen = false;
-        audio.PlayOneShot(door_CloseSound);
+        audioPlayer.PlayOneShot(door_CloseSound);
         animate.Play("closeDoor");
         openTime = 0.0f;
     }
