@@ -3,7 +3,8 @@ using System.Collections;
 
 public class PlayerCollsion : MonoBehaviour
 {
-    public static int cellCount = 0;
+
+
     void Update()
     {
         
@@ -18,8 +19,4 @@ public class PlayerCollsion : MonoBehaviour
         }
     }*/
 
-
-    void PickUpCell() {
-        cellCount++;
-    }
 }

@@ -63,11 +63,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCollsion.cs" />
-    <Compile Include="Assets\Scripts\Player\SimpleRpgCamera.cs" />
     <Compile Include="Assets\Scripts\PowerCell.cs" />
+    <Compile Include="Assets\Scripts\Shout.cs" />
     <Compile Include="Assets\Scripts\Tig.cs" />
     <Compile Include="Assets\Scripts\TransformAround.cs" />
   </ItemGroup>

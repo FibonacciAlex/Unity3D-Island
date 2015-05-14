@@ -54,6 +54,9 @@ ModelImporter:
     6400012: wood_001
     6400014: wood_002
     7400000: Default Take
+    7400002: idle
+    7400004: OpenDoor
+    7400006: CloseDoor
     11100000: //RootNode
   materials:
     importMaterials: 1
@@ -70,7 +73,183 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dish
+        weight: 1
+      - path: door
+        weight: 1
+      - path: lamp
+        weight: 1
+      - path: outpost
+        weight: 1
+      - path: table
+        weight: 1
+      - path: wood
+        weight: 1
+      - path: wood_001
+        weight: 1
+      - path: wood_002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: .800000012
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dish
+        weight: 1
+      - path: door
+        weight: 1
+      - path: lamp
+        weight: 1
+      - path: outpost
+        weight: 1
+      - path: table
+        weight: 1
+      - path: wood
+        weight: 1
+      - path: wood_001
+        weight: 1
+      - path: wood_002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: OpenDoor
+      takeName: Default Take
+      firstFrame: .800000012
+      lastFrame: 15.8000002
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dish
+        weight: 1
+      - path: door
+        weight: 1
+      - path: lamp
+        weight: 1
+      - path: outpost
+        weight: 1
+      - path: table
+        weight: 1
+      - path: wood
+        weight: 1
+      - path: wood_001
+        weight: 1
+      - path: wood_002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CloseDoor
+      takeName: Default Take
+      firstFrame: 15.8000002
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: dish
+        weight: 1
+      - path: door
+        weight: 1
+      - path: lamp
+        weight: 1
+      - path: outpost
+        weight: 1
+      - path: table
+        weight: 1
+      - path: wood
+        weight: 1
+      - path: wood_001
+        weight: 1
+      - path: wood_002
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []

@@ -19,7 +19,8 @@ public class PowerCell : MonoBehaviour {
         if (col.gameObject.tag == "Player")
         {
             //销毁物体 增加收集数
-            col.gameObject.SendMessage("PickUpCell");
+            Tig.IncreaseCellCount();
+
             AudioSource.PlayClipAtPoint(pickUpSound,transform.position);
             Destroy(gameObject);
         }

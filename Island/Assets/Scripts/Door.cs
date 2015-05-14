@@ -42,14 +42,21 @@ public class Door : MonoBehaviour {
         isOpen = true;
 
         audioPlayer.PlayOneShot(door_OpenSound);
-        animate.Play("openDoor");
+        animate.Play("OpenDoor");
     }
 
     void Close() {
         isOpen = false;
         audioPlayer.PlayOneShot(door_CloseSound);
-        animate.Play("closeDoor");
+        animate.Play("CloseDoor");
         openTime = 0.0f;
     }
+
+    void PlayDoorLockSound() {
+        audioPlayer.Play();
+    }
+
+    
+
 
 }
